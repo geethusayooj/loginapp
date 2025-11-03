@@ -23,7 +23,7 @@ Route::get('/main', function () {
     return view('main');
 })->name('main');
 
-//logout
+//logoutsection
 
 Route::post('/logout', function () {
     Auth::logout();
